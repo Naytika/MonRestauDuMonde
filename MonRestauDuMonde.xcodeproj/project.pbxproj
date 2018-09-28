@@ -13,6 +13,8 @@
 		5D69E05E215E3DBB00A085ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D69E05C215E3DBB00A085ED /* LaunchScreen.storyboard */; };
 		5D69E069215E402700A085ED /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69E068215E402700A085ED /* MenuController.swift */; };
 		5D69E06B215E407700A085ED /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69E06A215E407700A085ED /* ALaCarteController.swift */; };
+		5D69E06D215E41FE00A085ED /* MonTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69E06C215E41FE00A085ED /* MonTabBar.swift */; };
+		5D69E070215E424500A085ED /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D69E06F215E424500A085ED /* Constantes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5D69E05F215E3DBB00A085ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D69E068215E402700A085ED /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		5D69E06A215E407700A085ED /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
+		5D69E06C215E41FE00A085ED /* MonTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonTabBar.swift; sourceTree = "<group>"; };
+		5D69E06F215E424500A085ED /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		5D69E052215E3DBB00A085ED /* MonRestauDuMonde */ = {
 			isa = PBXGroup;
 			children = (
+				5D69E06E215E422F00A085ED /* Utilitaire */,
 				5D69E065215E3FB900A085ED /* Modele */,
 				5D69E066215E3FD200A085ED /* Vue */,
 				5D69E067215E3FD700A085ED /* Controller */,
@@ -87,8 +92,17 @@
 			children = (
 				5D69E068215E402700A085ED /* MenuController.swift */,
 				5D69E06A215E407700A085ED /* ALaCarteController.swift */,
+				5D69E06C215E41FE00A085ED /* MonTabBar.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		5D69E06E215E422F00A085ED /* Utilitaire */ = {
+			isa = PBXGroup;
+			children = (
+				5D69E06F215E424500A085ED /* Constantes.swift */,
+			);
+			path = Utilitaire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +176,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D69E070215E424500A085ED /* Constantes.swift in Sources */,
+				5D69E06D215E41FE00A085ED /* MonTabBar.swift in Sources */,
 				5D69E069215E402700A085ED /* MenuController.swift in Sources */,
 				5D69E054215E3DBB00A085ED /* AppDelegate.swift in Sources */,
 				5D69E06B215E407700A085ED /* ALaCarteController.swift in Sources */,
